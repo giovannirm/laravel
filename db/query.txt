@@ -1,6 +1,6 @@
-drop database if exists rojasmarket;
-create database rojasmarket;
-use rojasmarket;
+drop database if exists laravel;
+create database laravel;
+use laravel;
 
 
 

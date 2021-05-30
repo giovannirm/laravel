@@ -1,0 +1,13 @@
+1. clonar el proyecto
+2. en la consola poner -> composer install
+3. crear la BD en phpmyadmin¿
+4. ejecutar las migraciones y el seed 
+-> php artisan migrate --seed
+5. ejecutar el proyecto -> php artisan run serve
+o entrar a google y poner la ruta de ejecución  
+
+El único problema es al crear un producto dado que al final 
+agregue un campo extra llamado slug y no se le está llamando,
+se puede resolver tomando el nombre, luego pasarlo a minuscula
+y en los espacios que se complete con -, no es necesario usar
+js simplemente php 
